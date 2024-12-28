@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/72deca35-fba9-4b29-aa88-933e9e96a4f7)<p align="center">
+<p align="center">
   <img src='https://github.com/user-attachments/assets/19e0a21a-7677-4b19-8382-5171bce8e490'/>
 </p>
 <h1 align="center">Valcann<br>
