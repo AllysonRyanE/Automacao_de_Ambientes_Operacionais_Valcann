@@ -1,26 +1,25 @@
-<p align="center">
-  <img src='![valcann-favicon](https://github.com/user-attachments/assets/aa9e931b-9e4b-47e4-8d98-0e39e2f57c7f)' width = "500px"/>
+![image](https://github.com/user-attachments/assets/72deca35-fba9-4b29-aa88-933e9e96a4f7)<p align="center">
+  <img src='https://github.com/user-attachments/assets/19e0a21a-7677-4b19-8382-5171bce8e490'/>
 </p>
-<p align="center">Valcann</p>
-<p align="center">Somos especialistas em Computação em Nuvem.</p>
-
-##
-
+<h1 align="center">Valcann<br>
+Somos especialistas em Computação em Nuvem.</h1>
 <p align="center">
-  <img align="center" src='https://img.shields.io/badge/Status-complete-green' />
-  <img align="center" src='https://img.shields.io/badge/version-1-green' />
-  <img align="center" src='https://img.shields.io/badge/release%20date-abr/2023-green' />
+  <img align="center" alt="Static Badge" src="https://img.shields.io/badge/status-complete-complete?color=purple">
+  <img align="center" alt="Static Badge" src="https://img.shields.io/badge/version-1-1?color=purple">
+  <img align="center" alt="Static Badge" src="https://img.shields.io/badge/release%20date-jan%2F2025-jan%2F2025?color=purple">
 </p>
 
 # Programa de Estágio 2025.1: Problema 1 | Automação de Ambientes Operacionais
 
 ## 📕 Proposta
 
-Um dos principais desafios para um bom gerenciamento de infraestrutura, é implementar automação para permitir produtividade aos times de administração de tecnologia, bem como, minimizar ações humanas nos ambientes dos clientes. O cliente “Acme Co.” possui um servidor centralizado de backup, o qual recebe arquivos de todos os demais servidores, move os dados para um volume temporário, para que deste volume os dados sejam copiados por uma ferramenta de backup externa. De forma a minimizar o nível de intervenção neste ambiente, você foi convocado a escrever um script (em Shell Script, Python ou qualquer outra tecnologia que preferir), para automatizar as seguintes ações:
+Um dos principais desafios para um bom gerenciamento de infraestrutura, é implementar automação para permitir produtividade aos times de administração de tecnologia, bem como, minimizar ações humanas nos ambientes dos clientes. O cliente “Acme Co.” possui um servidor centralizado de backup, o qual recebe arquivos de todos os demais servidores, move os dados para um volume temporário, para que deste volume os dados sejam copiados por uma ferramenta de backup externa. 
+
+De forma a minimizar o nível de intervenção neste ambiente, você foi convocado a escrever um script (em Shell Script, Python ou qualquer outra tecnologia que preferir), para automatizar as seguintes ações:
 
 ## 🔗 Link para acesso do Google Colab
 
-#### [Acesse aqui]( https://colab.research.google.com/drive/1SE8oY_u8fuBRA5dFzV2w4n7PvNyYaWeE?usp=sharing)
+#### [Acesse aqui]()
 
 ## 
 
@@ -28,39 +27,26 @@ Um dos principais desafios para um bom gerenciamento de infraestrutura, é imple
 ## 📂 Estrutura do projeto
 
 ```
-Estatistica-e-Probabilidade-Computacional
-├── apresentacao
-    └── APRESENTACAO_G6.pdf
-├── docs
-|  ├── ref_desenvolvimento
+Automacao_de_Ambientes_Operacionais_Valcann
+└── docs
+|  |  └── desafio_proposto
 |  |  └── fluxo_git.txt
-|  └── material_do_projeto
-|     ├── Especificação_projeto_2024.1.pdf
-|     └── TEMPLATE_IEEE_LATEX.zip
-|     ├── data_set_group_6_MEMORY.txt
 └── src
-   ├── assets
-      ├── Boxplot.png
-      ├── ConfiabilidadeDaMedia.png
-      ├── FluxogramaDaAnalise.png
-      .
-      .
-      .
-      └── TesteZ_StatDisk.png
-   └── modules
-      ├── __init__.py
-      ├── critical-z.py
-      ├── data.py
-      ├── data_set_group_6_MEMORY.txt
-      ├── graphics.py
-      ├── measure.py
-      ├── normal.py
-      └── setup.py
-   └── requirements.txt
+   └── solucao_em_python
+      ├── auto_bkp.py
+      ├── auto_bkp.sh
+      ├── auto_bkp.ipynb
+      └── home
+      |  └── valcann
+        |  └──  backups_from
+          |  |  └── un_sp
+                | ├── server_cisco_redun.txt
+          |  ├── un_fortaleza.txt
+          |  ├── un_recife.txt
+          |  ├── un_sobradinho.txt
+        |  └──  backups_to
 ├── LICENSE
-├── README.md
-├── RELATORIO_FINAL_G6.pdf
-      
+├── README.md      
 
 ```
 
@@ -68,6 +54,7 @@ Estatistica-e-Probabilidade-Computacional
 
 - Python 3;
   - Datetime, os, shutil e sched
+- Shell Script;
 - Google Colab;
   
 ## 🤝 Funcionário
