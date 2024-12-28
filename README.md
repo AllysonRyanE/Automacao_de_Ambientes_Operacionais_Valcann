@@ -1,5 +1,5 @@
 <p align="center">
-  <img align="center" src='[https://user-images.githubusercontent.com/54161035/200095500-d5fec4ba-c97e-4f19-9e39-6764418a736b.png](https://www.valcann.com.br/wp-content/uploads/2023/07/valcann-logo.png)' />
+  <img src='![valcann-favicon](https://github.com/user-attachments/assets/aa9e931b-9e4b-47e4-8d98-0e39e2f57c7f)' width = "500px"/>
 </p>
 <p align="center">Valcann</p>
 <p align="center">Somos especialistas em Computação em Nuvem.</p>
