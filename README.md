@@ -17,6 +17,12 @@ Um dos principais desafios para um bom gerenciamento de infraestrutura, é imple
 
 De forma a minimizar o nível de intervenção neste ambiente, você foi convocado a escrever um script (em Shell Script, Python ou qualquer outra tecnologia que preferir), para automatizar as seguintes ações:
 
+1. Listar todos arquivos (nome, tamanho, data de criação, data da última modificação) localizados no caminho /home/valcann/backupsFrom;
+2. Salvar o resultado no arquivo backupsFrom.log em /home/valcann/;
+3. Remover todos os arquivos com data de criação superior a 3 (três) dias;
+4. Copiar todos os arquivos os arquivos com data de criação menor ou igual a 3 (três) dias em /home/valcann/backupsTo;
+5. Salvar o resultado no arquivo backupsTo.log em /home/valcann/.
+
 ## 🔗 Link para acesso do Google Colab
 
 #### [Acesse aqui]()
