@@ -1,8 +1,8 @@
 <p align="center">
-  <img align="center" src='https://user-images.githubusercontent.com/54161035/200095500-d5fec4ba-c97e-4f19-9e39-6764418a736b.png' />
+  <img align="center" src='[https://user-images.githubusercontent.com/54161035/200095500-d5fec4ba-c97e-4f19-9e39-6764418a736b.png](https://www.valcann.com.br/wp-content/uploads/2023/07/valcann-logo.png)' />
 </p>
-<p align="center">UNIVERSIDADE FEDERAL DE PERNAMBUCO-UFPE</p>
-<p align="center">CENTRO DE INFORMÁTICA</p>
+<p align="center">Valcann</p>
+<p align="center">Somos especialistas em Computação em Nuvem.</p>
 
 ##
 
@@ -12,11 +12,11 @@
   <img align="center" src='https://img.shields.io/badge/release%20date-abr/2023-green' />
 </p>
 
-# Projeto: Análise estatística do uso de RAM para renderização de imagem em VR
+# Programa de Estágio 2025.1: Problema 1 | Automação de Ambientes Operacionais
 
-## 📕 Resumo
+## 📕 Proposta
 
-Este projeto teve como objetivo investigar a otimização do consumo de memória RAM partindo de um processo de renderização de imagem do jogo Minecraft executando em um Apple Vision Pro enquanto o mesmo funcionava como um servidor local. Foram coletados os dados de uso da memória durante a execução e analisados estatisticamente utilizando bibliotecas Python e outras ferramentas. A normalidade dos dados foi atestada através do gráfico Q-Q e do valor-p, indicando que a base de dados é uma distribuição normal. Foi realizado um Teste Z para verificar se a média de uso seria considerada ideal, tendo em perspectiva um limite seguro pré estabelecido e relacionado a segurança para contornar superaquecimentos do dispositivo, resultando na rejeição da hipótese nula. Portanto, concluiu-se que o proceso de renderização de imagem não está otimizado o suficiente para adequar-se aos limites de segurança. 
+Um dos principais desafios para um bom gerenciamento de infraestrutura, é implementar automação para permitir produtividade aos times de administração de tecnologia, bem como, minimizar ações humanas nos ambientes dos clientes. O cliente “Acme Co.” possui um servidor centralizado de backup, o qual recebe arquivos de todos os demais servidores, move os dados para um volume temporário, para que deste volume os dados sejam copiados por uma ferramenta de backup externa. De forma a minimizar o nível de intervenção neste ambiente, você foi convocado a escrever um script (em Shell Script, Python ou qualquer outra tecnologia que preferir), para automatizar as seguintes ações:
 
 ## 🔗 Link para acesso do Google Colab
 
@@ -67,16 +67,11 @@ Estatistica-e-Probabilidade-Computacional
 ## 🛠️ Principais Tecnologias utilizadas
 
 - Python 3;
+  - Datetime, os, shutil e sched
 - Google Colab;
-- NumPy;
-- SciPy;
-- Matplotlib;
-- Seaborn;
-- Statdisk Online;
-- Minitab
-
-## 🤝 Autores
-Conheça quem faz parte do nosso time
+  
+## 🤝 Funcionário
+Conheça quem fez parte do nosso time
 <table>
   <tr>
     <td align="center">
@@ -84,22 +79,6 @@ Conheça quem faz parte do nosso time
         <img src="https://avatars.githubusercontent.com/u/115114528?v=4" width="100px;" alt="Foto"/><br>
         <sub>
           <b>Allyson Ryan</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/jorgelcff" title="defina o titulo do link">
-        <img src="https://avatars.githubusercontent.com/u/80436467?v=4" width="100px;" alt="Foto"/><br>
-        <sub>
-          <b>Jorge Freitas</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/LucasGaab" title="defina o titulo do link">
-        <img src="https://avatars.githubusercontent.com/u/94190622?v=4" width="100px;" alt="Foto"/><br>
-        <sub>
-          <b>Lucas Gabriel</b>
         </sub>
       </a>
     </td>
