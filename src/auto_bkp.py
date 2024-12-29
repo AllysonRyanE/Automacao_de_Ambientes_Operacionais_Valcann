@@ -20,6 +20,8 @@ root = '/home/valcann/'
 #Caso queira testar localmente com os diretórios dados, talvez seja preciso substituir o valor por apenas 'home/valcann/
 src = root + 'backupsFrom'
 dst = root + 'backupsTo'
+if not os.path.exists(dst):
+    os.makedirs(dst)
 
 log_from = os.path.join(root, 'backupsFrom.log')
 log_to = os.path.join(root, 'backupsTo.log')
@@ -56,6 +58,6 @@ with open(log_from, 'w') as reg_from:  #1. Irei listar todos os arquivos detalha
                                  f"Nome: {metadate_file[0]}, Tamanho: {metadate_file[3]} bytes, "
                                  f"Criado em: {metadate_file[1]}, Modificado em: {metadate_file[2]}\n"
                                  f"Copiado para: {destination_path}, Original no: {absolute_path}\n" + "-" * 35 + "\n")
-print(f"Backup concluido:\n {file_processed} foram processados.\n"
+print(f"Backup concluido:\n{file_processed} foram processados.\n"
       f"{file_removed} foram removidos conforme as configurações.\n"
       f"{file_coppied} foram copiados conforme as configurações.")
