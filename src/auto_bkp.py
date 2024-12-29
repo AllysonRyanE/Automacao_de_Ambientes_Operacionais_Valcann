@@ -17,7 +17,7 @@ def get_metadate(path_local):
 
 """Definimos as variáveis alvo do processo, ou seja a origem, o destino e a raiz."""
 root = '/home/valcann/'
-#Caso queira testar localmente com os diretórios dados, talvez seja preciso substituir o valor por apenas 'home/valcann/
+#Caso queira testar localmente com os diretórios dados ao invés da raiz, talvez seja preciso substituir o valor por apenas 'home/valcann/'
 src = root + 'backupsFrom'
 dst = root + 'backupsTo'
 if not os.path.exists(dst):
