@@ -38,19 +38,18 @@ Automacao_de_Ambientes_Operacionais_Valcann
 |  |  └── desafio_proposto
 |  |  └── fluxo_git.txt
 └── src
-   └── solucao
       ├── auto_bkp.py
       ├── auto_bkp.sh
       ├── auto_bkp.ipynb
       └── home
       |  └── valcann
-        |  └──  backups_from
-          |  |  └── un_sp
-                | ├── server_cisco_redun.txt
-          |  ├── un_fortaleza.txt
-          |  ├── un_recife.txt
-          |  ├── un_sobradinho.txt
-        |  └──  backups_to
+         |  └──  backups_from
+            |  └── un_sp
+               |  ├── server_cisco_redun.txt
+            |  ├── un_fortaleza.txt
+            |  ├── un_recife.txt
+            |  ├── un_sobradinho.txt
+         |  └──  backups_to
 ├── LICENSE
 ├── README.md      
 
