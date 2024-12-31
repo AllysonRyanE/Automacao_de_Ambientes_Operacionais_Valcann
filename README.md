@@ -25,7 +25,7 @@ De forma a minimizar o nível de intervenção neste ambiente, você foi convoca
 
 ## 🔗 Link para acesso do Google Colab
 
-#### [Acesse aqui]()
+#### [Acesse aqui](https://colab.research.google.com/drive/1WgzTAmgDQwifoSqlm-K1yWpbECfYQmuN?usp=sharing)
 
 ## 
 
@@ -58,7 +58,7 @@ Automacao_de_Ambientes_Operacionais_Valcann
 ## 🛠️ Principais Tecnologias utilizadas
 
 - Python 3;
-  - Datetime, os, shutil e sched
+  - Datetime, os e shutil
 - Shell Script;
 - Google Colab;
   
