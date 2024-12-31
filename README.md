@@ -38,9 +38,9 @@ Automacao_de_Ambientes_Operacionais_Valcann
 |  |  └── desafio_proposto
 |  |  └── fluxo_git.txt
 └── src
+      ├── auto_bkp.ipynb
       ├── auto_bkp.py
       ├── auto_bkp.sh
-      ├── auto_bkp.ipynb
       └── home
       |  └── valcann
          |  └──  backups_from
